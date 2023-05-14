@@ -1,1 +1,7 @@
-
+I have created user group admingroup and assigned EC2 Full access permission
+Created adminuser and added to admingroup
+Logged in as adminuser
+created EC2 instance
+Left the default for EBS voume to delete on termination
+Terminated the instance and found that the voume is deleted.
+Screenshots are uploaded in this folder
