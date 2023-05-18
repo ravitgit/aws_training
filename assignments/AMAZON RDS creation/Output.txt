@@ -1,0 +1,10 @@
+I have created amazon RDS instance using "Standard Create", with port 3306
+I have created an EC2 instance with t3.micro
+The port 3306 was opened on the security group on the RDS instance. 
+I have used different security groups fro EC2 and the db instances. 
+3306 was needed to open only on db instance. on EC2 instance, I have not opened 3306 port. 
+I was able to connect to Ec2 instance and then from that instance connected to db using mysql client.
+Created table and added data in the db. 
+Tried to change VPC on the RDS. There is no option to change VPC. 
+Tried to change subnet group. It gave me error. It says db instance and db subnet group canot be in the same vpc. 
+All screenshots uploaded in this folder
