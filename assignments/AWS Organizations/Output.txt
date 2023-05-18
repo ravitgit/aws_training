@@ -1,0 +1,5 @@
+I have verified the AWS orgaization, organiztion units and the relavant security policies
+Created an organization structure, with multiple organization units uder it
+Created policy that removes S3 access and attached to one of the organizational unit
+Invited another accounta and added to the above OU
+Verified that the account cannot access S3 service
